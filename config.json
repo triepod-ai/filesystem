@@ -1,0 +1,19 @@
+{
+  "blockedCommands": [
+    "format",
+    "del /q",
+    "rm -rf",
+    "sudo",
+    "chmod 777",
+    "mkfs"
+  ],
+  "logging": {
+    "level": "info",
+    "format": "simple",
+    "file": {
+      "enabled": true,
+      "path": "./logs"
+    }
+  },
+  "allowedDirectories": []
+}
